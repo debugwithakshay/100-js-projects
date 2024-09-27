@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-box-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.color-box {
+  width: 20rem;
+  height: 13rem;
+  border: 5px solid black;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.color-box[box-color="red"] {
+  background-color: red;
+}
+
+.color-box[box-color="blue"] {
+  background-color: blue;
+}
+
+.color-box[box-color="yellow"] {
+  background-color: yellow;
+}
+
+.color-box[box-color="green"] {
+  background-color: green;
+}
+
+@media (max-width: 900px) {
+  .color-box-container {
+    flex-direction: column;
+  }
+}

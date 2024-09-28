@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins";
+  width: 100vw;
+  height: 100vh;
+  background-color: #aa57cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 35rem;
+  background-color: #fff;
+  border-radius: 1.3rem;
+  padding: 1.6rem;
+}
+
+.card .primary-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.card .primary-description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(107, 107, 107);
+  margin-top: 1rem;
+}
+
+.card #input {
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid gray;
+  height: 4rem;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-family: "Poppins";
+}
+
+.card #input:focus {
+  outline: 2px solid #aa57cb;
+}
+
+.card .check-palindrome-btn {
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  background-color: #aa57cb;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.result-text {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 500;
+}

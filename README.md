@@ -18,7 +18,7 @@ This repository is a collection of 100 JS Projects. ✨ I handpicked and coded e
 
 ## Types of Projects✂️?
 ✅ **1 to 10** - Simple DOM Projects (Eg: Password Visibility Toggle, Palindrome Checker, etc)<br />
-🟩 **11 to 20** - In Progress<br />
+🟩 **11 to 20** - Complex DOM & Date-Time Projects<br />
 
 ## Want to Contribute?
 🌟 Feel free to contribute to this repository by helping resolving issues and refactoring code. 🚀 Your contributions are always welcome and greatly appreciated. 🙌 Let's work together to make this project even better and more efficient for everyone! 💻✨
